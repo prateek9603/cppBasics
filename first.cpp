@@ -424,31 +424,31 @@ using namespace std;
 //     return 0 ;
 // }
 
-// -----------------permeter of rectangle
+// -----------------perimeter of rectangle
 
-// int main(){
-//     int  length, breadth;
-//     cout<<"Enter Length and breadth repectively : ";
-//     cin>>length>>breadth;
+int main(){
+    int  length, breadth;
+    cout<<"Enter Length and breadth repectively : ";
+    cin>>length>>breadth;
 
-//     int permeter = 2(length + breadth);
+   int  perimeter=2*(length+breadth) ;
 
-//     cout<<"peremeter of rectangle is : "<<permeter;
-//     return 0;
-// }
+    cout<<"perimeter of rectangle is : "<<perimeter;
+    return 0;
+}
 
 // ---------------------quotient and remainder of two integer numbers
 
-int main(){
-    int a, b;
-    cout << "Enter the numerator: ";
-    cin >> a;
-    cout << "Enter the dinominator: ";
-    cin >> b;
+// int main(){
+//     int a, b;
+//     cout << "Enter the numerator: ";
+//     cin >> a;
+//     cout << "Enter the dinominator: ";
+//     cin >> b;
 
-    float  quotient = (float)a / b;
-    int reminder = a % b;
+//     float  quotient = (float)a / b;
+//     int reminder = a % b;
 
-    cout<<"quotient : "<<quotient<<endl<<"reminder : "<<reminder; 
-    return 0;
-}
+//     cout<<"quotient : "<<quotient<<endl<<"reminder : "<<reminder; 
+//     return 0;
+// }
