@@ -310,14 +310,145 @@ using namespace std;
 
 // ---------------------program  to  merge  three  number.
 
-int main(){
-    int a,b,c;
-    cout<<"Enter  first no : "<<endl;
-    cin>>a;
-    cout<<"Enter  second no : "<<endl;
-    cin>>b;
-    cout<<"Enter  third no : "<<endl;
-    cin>>c;
+// int main(){
+//     int a,b,c;
+//     cout<<"Enter  first no : "<<endl;
+//     cin>>a;
+//     cout<<"Enter  second no : "<<endl;
+//     cin>>b;
+//     cout<<"Enter  third no : "<<endl;
+//     cin>>c;
 
-    cout<< 100*a + 10*b + c;
+//     cout<< 100*a + 10*b + c;
+// }
+
+// ------------net salary program-------------
+
+// int main(){
+
+//     float basicSalary;
+//     cout << "Enter basic salary: ";
+//     cin >> basicSalary;
+
+//     const float hraPercentage = 0.20;
+//     const float daPercentage = 0.40;
+//     const float taPercentage = 0.05;
+//     const float pfPercentage = 0.125;
+//     const float taxAmount = 100;
+
+//     float hra = hraPercentage * basicSalary;
+//     float da = daPercentage * basicSalary;
+//     float ta = taPercentage * basicSalary;
+
+//     float pf = pfPercentage * basicSalary;
+
+//     float grossSalary = basicSalary + hra + da + ta;
+
+//     float netSalary = grossSalary - (pf + taxAmount);
+//     cout << "Net Salary: " << netSalary << endl;
+    
+//     return 0;
+// }
+
+// ---------------reverse of a 3-digit number
+
+// int main(){
+//     int num;
+//     cout<<"enter a 3 digit integer number : "<<endl;
+//     cin>>num;
+
+//     int revnum;
+//     revnum +=  ((num%10)*100) + ((num/10%10)*10) + (num/100);
+//     cout<<revnum;
+
+//     return 0;
+// }
+    
+// ------------------aggregate and percentage of student
+
+// int main(){
+//     int a,b,c,d,e ;
+//     float totalMarks , percentage;
+
+//     cout<<"enter marks of each subject : "<<endl;
+//     cin>>a>>b>>c>>d>>e;
+
+//     totalMarks = a+ b + c + d + e ;
+
+//     percentage = ((totalMarks) / 500) * 100;
+
+//     cout<<"Aggregate marks are : "<<totalMarks<<" Marks"<<endl;
+//     cout<<"percentage is : "<<percentage<<"%"<<endl;
+
+//     return 0;
+// }
+
+// ------------------the sum of the first and last digit of the 4 digit number
+
+// int main(){
+//   int num ;
+//   cout<<"Enter a 4-digit number : "<<endl;
+//   cin>>num;
+
+//   int sum ; 
+//   sum = num%10 + num/1000;
+//   cout<<sum;
+  
+//   return 0;
+// }
+
+// ------------------- rangenof any integer
+
+// int main(){
+//     int num;
+//     cout<<"enter integer number : "<<endl;
+//     cin>>num;
+
+//     int lowerBound = (num / 10) * 10;
+//     int upperBound = lowerBound + 9;
+
+//     cout<<"Range of this integer is "<<lowerBound<<" to "<<upperBound<<endl;
+
+//     return 0;
+
+// }
+
+// ------------area of a rectangle
+// int main(){
+//     int  length, breadth;
+//     cout<<"Enter Length and breadth repectively : ";
+//     cin>>length>>breadth;
+
+//     int area = length * breadth;
+//     cout<<"Area of Rectangle is : "<<area<<"sq.unit"; 
+//     return 0 ;
+// }
+
+// -----------------permeter of rectangle
+
+// int main(){
+//     int  length, breadth;
+//     cout<<"Enter Length and breadth repectively : ";
+//     cin>>length>>breadth;
+
+//     int permeter = 2(length + breadth);
+
+//     cout<<"peremeter of rectangle is : "<<permeter;
+//     return 0;
+// }
+
+// ---------------------quotient and remainder of two integer numbers
+
+int main(){
+    int a, b;
+    cout << "Enter the numerator: ";
+    cin >> a;
+    cout << "Enter the dinominator: ";
+    cin >> b;
+
+    float  quotient = (float)a / b;
+    int reminder = a % b;
+
+    cout<<"quotient : "<<quotient<<endl<<"reminder : "<<reminder; 
+    return 0;
 }
